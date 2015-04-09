@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+
+    <title>Scrabble</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Scrabble</h1>
+
+
+        <form id="scrable_form">
+            <label for="word">Enter Word to Check Points</label>
+            <input type="word" name="word" value="" id = "word" required>
+            <button  type ="submit" name="button">Submit</button>
+
+
+        </form>
+
+        <div id="result">
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <p>Here are the points</p>
+                </div>
+                <div class="col-xs-6 col-md-4">
+                    <p></p><span class="point"></span> </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

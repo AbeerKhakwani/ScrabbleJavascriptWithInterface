@@ -14,9 +14,19 @@ describe('Scrabble', function() {
        it("checks to see if a 7  point word returns 7 points", function() {
         expect(Scrabble("Abeer")).to.equal(7);
     });
+    it("checks to see if a   7  point sentence returns 7 points", function() {
+     expect(Scrabble("A b e e r")).to.equal(7);
+ });
+ it("checks to see if a   7  point sentence returns 7 points", function() {
+  expect(Scrabble("Ab ee r")).to.equal(7);
+});
 
 
 
 
-    
+
+
+
+
+
 });
